@@ -39,13 +39,13 @@ Un script robusto y profesional para automatizar el proceso de actualización, a
 
 2. Dar permisos de ejecución:
     ```bash
-    chmod +x actualizaciones-full.sh
+    chmod +x ActualizacionesServer.sh
 3. Ejecutar el script manualmente como root para verificar:
     ```bash
-    sudo ./actualizaciones-full.sh
+    sudo ./ActualizacionesServer.sh
 4. (Opcional) Copiar al sistema para uso global:
     ```bash
-    sudo cp actualizaciones-full.sh /usr/local/bin/actualizaciones
+    sudo cp ActualizacionesServer.sh /usr/local/bin/actualizaciones
 5. Agregar al crontab para que se ejecute todos los sábados a las 2 AM:
     ```bash
     sudo crontab -e
