@@ -2,7 +2,7 @@
 # Script de instalación automática
 
 echo "Copiando script al sistema..."
-sudo cp actualizaciones-full.sh /usr/local/bin/actualizaciones
+sudo cp ActualizacionesServer.sh /usr/local/bin/actualizaciones
 sudo chmod +x /usr/local/bin/actualizaciones
 
 echo "Agregando al cron (ejecución semanal, sábados 2 AM)..."
