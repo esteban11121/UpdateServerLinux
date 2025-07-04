@@ -34,7 +34,7 @@ Un script robusto y profesional para automatizar el proceso de actualización, a
 
 1. Clonar el repositorio:
    ```bash
-   git clone 
+   git clone  https://github.com/esteban11121/UpdateServerLinux
    cd linux-updates-auditor
 
 2. Dar permisos de ejecución:
